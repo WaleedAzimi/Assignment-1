@@ -1,0 +1,72 @@
+Answer of Q1,
+
+string = 'Value'
+list = [1,2,3,'Apple' True,4]
+a = float(2)
+mytuple = ('Apple', 'Samsung', " Galaxy")
+
+Ans Q2.
+
+var1 = '',  It will give erorr because its a null value it does not define any data type
+var2 = ‘[ DS , ML , Python]’  , String data type
+var3 = [ ‘DS’ , ’ML’ , ‘Python’ ]  , List data type
+var4 = 1.  , Integer data type
+
+Ans Q3.
+
+/ operator will divide the number for eg
+a = 10/4 , O/P :- 2.5
+% operator will give also divide the number but it will return remainder value for eg
+a = 10/3 , O/P :- 1
+// operator will also divide but it will return value by rounding off the result for eg
+a = 15//7,  O/P:- 7
+** operator will work as a exponential power for eg
+a = 2**3 ,  O/P:- 8
+
+Ans Q4.
+
+mylist = [1,3.567,'Hello, World!', True, None, 3 + 4j, [1, 2, 3], (4, 5), { 'key': 'value' }, bytearray(b'byte')]
+for element in mylist :
+  print(f'Element: {element}, Data Type: {type(element)}')
+
+Ans Q5.
+
+print("Enter the numbers :  ")
+a = int(input())
+b = int(input())
+while a%b==0 :
+    print("Given number is fully divisible by number", b)
+    break
+else :
+        print("Given number is not fully divisble by", b)
+
+Ans Q6.
+
+int_list = [i for i in range(1, 26)]
+for element in int_list:
+    if element % 3 == 0:
+        print(f'{element} is divisible by 3')
+    else:
+        print(f'{element} is not divisible by 3')
+
+Ans Q7.
+
+mutability is that u can change at aparticular indices eg
+  L=[1, 2, 3, 4, 5, 6, 7, "Thing" , 'cat' , True , 4 + 6j]
+  from this data which is basically a type list
+  I can call or retrieve any indices 
+    L[2]
+    o/p = 3
+ 
+  Also if I want to replace any value in the given list data set I can perform that for eg
+  L[4] = 100 and call L
+  O/P 1, 2, 3, 4, 100, 6, 7, "Thing" , 'cat' , True , 4 + 6j
+  This is known as Mutability
+ 
+
+  Now suppose another string set
+  a = "Mobile"
+  and here if I want change any indices for say
+  a[2]= 'm'
+  O/P it gives error 
+  String is imutable object
